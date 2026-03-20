@@ -20,7 +20,7 @@ public class CustomList {
      public boolean hasCity(City city) {
         return cities.contains(city);
      }
-     public void remove(City city) {
+     public void removeCity(City city) {
         if (cities.contains(city)){
             cities.remove(city);
         }
